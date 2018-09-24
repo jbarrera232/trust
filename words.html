@@ -1,41 +1,28 @@
-<!--
-
+﻿<!--
 THIS FILE HAS ABOUT 3,300 WORDS TO TRANSLATE
-
 TRANSLATION NOTES:
-
 When translating this thing, only edit the stuff that's BETWEEN the <tags>, like so:
-
     <p id="still_english">hello</p>
     =>
     <p id="still_english">bonjour</p>
-
 Also, DON'T change anything between the [square brackets], like so:
-
     Number #[N]
     =>
     Numero #[N]
-
 Exception to the "don't change tags" rule:
 Feel free to move around the italics & bold tags, so that the emphasis
 on the right phrases/words still makes sense!
-
     <i>italics</i>
     <b>bold</b>
-
 Also, some HTML weirdness you might want to know:
-
     &amp; is an ampersand "&" sign
     &#8226; is a dot
     &rarr; is a rightward-facing arrow
     &lt; is a "<" sign
-
 ALSO! I'd love for you to credit yourself as a translator!
 You can add your own name in the <p id="subtitle"> section
-
 Thanks again!
 ~ Nicky Case
-
 -->
 
 <!-- - - - - - - - - - - - - - - - - -->
@@ -43,13 +30,13 @@ Thanks again!
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="meta_title">
-The Evolution of Trust
+Aprender a Confiar
 </p>
 <p id="meta_desc">
-an interactive guide to the game theory of why &amp; how we trust each other
+Una guía interactiva a la teoría de juegos y por qué y como confiamos en la gente
 </p>
 <p id="meta_loading">
-loading...
+cargando...
 </p>
 <p id="meta_on">
 ON
@@ -64,29 +51,27 @@ OFF
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="title">
-<span style="font-size:0.75em">THE</span><br>
-EVOLUTION<br>
-<span style="font-size:0.75em">OF TRUST</span>
+APRENDER<br>
+<span style="font-size:0.75em">A</span><br>
+CONFIAR
 </p>
 <p id="subtitle">
 
-playing time: 30 min &#8226; by nicky case, july 2017
+tiempo de juego: 30 min &#8226; por Nicky Case, julio 2017
 
-<!-- TRANSLATION NOTE: UNCOMMENT THE FOLLOWING & ADD YOUR OWN NAME! -->
-<!--
 <br>
-translated by YOUR NAME HERE
+traducido por John Barrera
 &#8226;
-<a href="http://ncase.me/trust/">original English version</a>
--->
+<a href="http://ncase.me/trust/">versión original (en inglés)</a>
+
 
 </p>
 
 <p id="loading">
-loading...
+cargando...
 </p>
 <p id="loading_done">
-PLAY &rarr;
+JUGAR &rarr;
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
@@ -94,29 +79,29 @@ PLAY &rarr;
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="intro">
-During World War I, peace broke out.
+Durante la Primera Guerra Mundial,<br> 
+un extraño suceso ocurrió en el Frente Occidental,<br> 
+en Francia.<br><br>
+
+A pesar de las estrictas órdenes de <i>no confraternizar</i> con el enemigo,<br>
+británicos y alemanes salieron de las trincheras y se reunieron<br>
+para enterrar a sus muertos, intercambiar regalos, y jugar fútbol.
 <br><br>
 
-It was Christmas 1914 on the Western Front.<br>
-Despite strict orders <i>not</i> to chillax with the enemy, British<br>
-and German soldiers left their trenches, crossed No Man's Land,<br>
-and gathered to bury their dead, exchange gifts, and play games.
+Pero ahora, en 2018, vivimos en un mundo sin guerras mundiales y<br>
+vaya que somos <i>malos</i> confiando en los demás. Las encuestan muestran que en los últimos 40 años
+la gente confía menos en otros. Entonces:
 <br><br>
 
-Meanwhile: it's 2017, the West has been at peace for decades, and<br>
-wow, we <i>suck</i> at trust. Surveys show that, over the past forty years,
-fewer and fewer people say they trust each other. So here's our puzzle:
+<b>¿Por qué, en tiempos de paz, desconfiamos de los amigos?<br>
+Y ¿por qué, en tiempos de guerra, confiamos en nuestros enemigos?</b>
 <br><br>
 
-<b>Why, even in peacetime, do friends become enemies?<br>
-And why, even in wartime, do enemies become friends?</b>
-<br><br>
-
-I think <b>game theory</b> can help explain our epidemic of distrust –<br>
-and how we can fix it! So, to understand all this...
+Creo que la <b>teoría de juegos</b> puede explicar esta desconfianza –<br>
+y cómo eliminarla. Así que, para entender esto...
 </p>
 <p id="intro_button">
-...let's play a game. &rarr;
+...juguemos un poco. &rarr;
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
@@ -124,85 +109,84 @@ and how we can fix it! So, to understand all this...
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="label_you_cooperate">
-you<br>cooperate
+tú<br>confías
 </p>
 
 <p id="label_you_cheat">
-you<br>cheat
+tú<br>engañas
 </p>
 
 <p id="label_they_cooperate">
-they<br>cooperate
+él<br>confía
 </p>
 
 <p id="label_they_cheat">
-they<br>cheat
+él<br>engaña
 </p>
 
 <p id="label_you">
-you<br>↙
+tú<br>↙
 </p>
 <p id="label_them">
-other player<br>↘
+otro jugador<br>↘
 </p>
 
 <p id="oneoff_0_top">
-
-<b>THE GAME OF TRUST</b>
+EL JUEGO DE LA CONFIANZA</b>
 <br>
-You have one choice.
-In front of you is a machine: if you put a coin in the machine,
-the <i>other player</i> gets three coins – and vice versa.
-You both can either choose to COOPERATE (put in coin), or CHEAT (don't put in coin).
+Debes escoger.
+Frente a ti está una máquina tragamonedas: si pones una moneda,
+el <i>otro jugador</i> recibe tres monedas – y viceversa. 
+Pueden elegir entre CONFIAR (poner la moneda), o ENGAÑAR (no poner la moneda).
 </p>
 
 <p id="oneoff_0_btm">
-<b>Let's say the other player cheats, and doesn't put in a coin.</b><br>
-What should you do?
+<b>Digamos que el otro jugador te engaña y no pone la moneda.</b><br>
+¿Qué deberías hacer?
 </p>
 
 <p id="oneoff_1_cheated">
-Exactly! Why let that moocher mooch off of you?
+Exacto! ¿Por qué dejar que ese tramposo se aproveche de ti?
 </p>
 
 <p id="oneoff_1_cooperated">
-Alas, turning the other cheek just gets you slapped!
+Vaya, ser amable te costó una moneda! :(
 </p>
 
 <p id="oneoff_1_top">
-If you cooperate &amp; they cheat, you lose a coin while they gain three. (score: -1 vs +3)
-However, if you both cheat, neither of you gain or lose anything. (score: 0 vs 0)
-<b>Therefore: you should CHEAT.</b>
+Si tú cooperas y él te engaña, pierdes una moneda y él gana tres. (puntuación: -1 vs +3)
+Sin embargo, si ambos engañan, nadie gana ni pierde. (puntuación: 0 vs 0)
+<b>Por tanto, deberías ENGAÑAR.</b>
 </p>
 
 <p id="oneoff_1_btm">
-<b>But let's say the other player cooperates, and puts in a coin.</b><br>
-What should you do now?
+<b>Pero supongamos que el otro jugador confía y pone su moneda.</b><br>
+¿Qué deberías hacer ahora?
 </p>
 
 <p id="oneoff_2_cheated">
-Wow, that's mean... and also the correct answer!
+Eso es cruel... y también lo correcto!
 </p>
 
 <p id="oneoff_2_cooperated">
-Sure, seems like the right thing to do... <b>OR IS IT??</b>
+Parece lo correcto... <b>¿O NO LO ES?</b>
 </p>
 
 <p id="oneoff_2_top">
-Because if you both cooperate, you both give up a coin to gain three. (score: +2 vs +2)
-But if you cheat &amp; they cooperate, you gain three coins at their cost of one. (score: +3 vs -1)
-<b>Therefore: you "should" still CHEAT.</b>
+Porque si ambos confían, ambos pierden una moneda para ganar tres. (puntuación: +2 vs +2)
+Pero si tú engañas y él confía, ganas tres monedas y él pierde una. (puntuación: +3 vs -1)
+<b>Obviamente deberías ENGAÑAR.</b>
 </p>
 
 <p id="oneoff_2_btm">
-And <i>that's</i> our dilemma.
-Trust is nice, but it can let others take advantage of you -- or shoot you as you come unarmed out of a trench.
-Sometimes, distrust <i>is</i> rational!
-But now, what happens if we play this game...
+Y <i>ése es el dilema.</i>
+Confiar es bueno, pero los demás se aprovechan de ti -- o te disparan al salir de la trinchera.
+A veces, desconfiar es <i>lógico y racional.</i>
+Pero, ¿que pasaría si jugamos este juego...
 </p>
 
 <p id="oneoff_button_next">
-...more than once? &rarr;
+...más de una vez? &rarr;
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
@@ -210,88 +194,88 @@ But now, what happens if we play this game...
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="iterated_intro_top">
-<b>Now, let's play for real.</b>
-You'll be playing against 5 different opponents, each with their own game "strategy".
-With each opponent, you'll play anywhere between 3 to 7 rounds.
-(You won't know in advance when the last round is)
-Can you trust them? Or rather... can they trust <i>you?</i>
+<b>Ahora juguemos en serio.</b>
+Te enfrentarás a 5 oponentes, cada uno con su propia "estrategia de juego".
+Te enfrentarás contra cada uno de ellos entre 3 y 7 veces.
+(No sabes cuál será la última ronda del juego.)
+¿Podrás confiar en ellos? Más aún, ¿podrán confiar ellos <i>en ti?</i>
 </p>
 
 <p id="iterated_intro_btm">
-Pick your first, <i>real</i> move. <b>Choose wisely.</b>
+Toma tu primera decisión. <b>Elige con cuidado.</b>
 </p>
 
 <p id="iterated_info_1">
-opponent: [X] of [Y]
+Oponente: [X] of [Y]
 </p>
 </p>
 <p id="iterated_info_2">
-your total score: 
+Tu ganancia total: 
 </p>
 
 <p id="iterated_score_start">
-And your total score is...
+Y tu ganancia total es...
 </p>
 <p id="iterated_score_1">
-which is, wow, actually <i>impressively</i> bad.
+que, de hecho, es <i>impresionantemente</i> baja.
 </p>
 <p id="iterated_score_2">
-which, uh, could be worse!
+que podría ser peor!
 </p>
 <p id="iterated_score_3">
-which ain't bad!
+que no está mal!
 </p>
 <p id="iterated_score_4">
-which is pretty good!
+que es muy buena!
 </p>
 <p id="iterated_score_5">
-which is <i>perfect!</i> Congrats you have too much time on your hands.
+que es <i>perfecta!</i> Felicitaciones, debes ser muy suspicaz.
 </p>
 <p id="iterated_score_x">
-...i have no idea how you did that.
+...¿qué rayos hiciste?
 </p>
 <p id="iterated_score_end">
-(the lowest &amp; highest possible scores are 7 and 49, respectively)
+(la ganancia más baja y más alta posible es 7 y 49, respectivamente)
 </p>
 
 <p id="who_were">
-So who were these strange characters you just played against?
+Así que, ¿quiénes son tus anteriores (y muy extraños) oponentes?
 </p>
 
 <p id="character_tft">
-<b>COPYCAT:</b>
-Hello! I start with Cooperate, and afterwards, I just copy whatever you did in the last round. Meow
+<b>COPIÓN:</b>
+¡Hola! Empiezo con CONFIAR, y desde ahí, me limito a copiar tu última decisión.
 </p>
 
 <p id="character_all_d">
-<b>ALWAYS CHEAT:</b>
-<i>the strong shall eat the weak</i>
+<b>TRAMPOSO:</b>
+<i>supervivencia del más apto, nena.</i>
 </p>
 
 <p id="character_all_c">
-<b>ALWAYS COOPERATE:</b>
-Let's be best friends! &lt;3
+<b>INOCENTE:</b>
+¡Seamos amigos! &lt;3
 </p>
 
 <p id="character_grudge">
-<b>GRUDGER:</b>
-Listen, pardner. I'll start cooperatin', and keep cooperatin',
-but if y'all ever cheat me, I'LL CHEAT YOU BACK 'TIL THE END OF TARNATION.
+<b>RENCOROSO:</b>
+Escucha, compadre. Confiaré en ti y sequiré confiando
+pero si te atreves a engañarme, TE ENGAÑARÉ HASTA EL ÚLTIMO DÍA DE MI VIDA.
 </p>
 
 <p id="character_prober">
 <b>DETECTIVE:</b>
-First: I analyze you. I start: Cooperate, Cheat, Cooperate, Cooperate.
-If you cheat back, I'll act like <span class="tft">Copycat</span>.
-If you never cheat back, I'll act like <span class="all_d">Always Cheat</span>, to exploit you.
-Elementary, my dear Watson.
+Primero, debo analizarte. Comienzo así: Confiar, Engañar, Confiar, Confiar.
+Si me engañas, actúo como el <span class="tft">Copión</span>.
+Si no me engañas nunca, actúo como el <span class="all_d">Tramposo</span>, para explotarte.
+Elemental, mi querido Watson.
 </p>
 
 <p id="characters_teaser">
-Now, what if these characters were to play...
+Ahora, ¿que pasaría si estos personajes juegan...
 </p>
 <p id="characters_button">
-...against each other? &rarr;
+...uno contra otro? &rarr;
 </p>
 
 
@@ -300,101 +284,100 @@ Now, what if these characters were to play...
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="place_your_bets">
-It's tournament time!
-Each character will now play against every other character:
-that's 10 paired matches, and 10 rounds per match.
+¡Es hora del torneo!
+Los personajes competirán entre ellos,
+son 10 encuentros posibles, y 10 rondas por encuentro.
 <br><br>
-Who do you think will get the highest <i>total</i> score?
-<b>Think carefully about it... and then
-PLACE YOUR BETS:</b>
+¿Quién crees que obtendrá la más alta ganancia <i>total?</i>
+<b>Piensa con cuidado, y luego...
+HAZ TU APUESTA:</b>
 </p>
 
 <p id="tournament_intro">
-Alright, you placed your bet on [CHAR]!
-Let's go through the matches one by one, and see how the tournament plays out...
+Muy bien, has apostado por [CHAR]!
+Veamos los encuentros uno por uno para observar el desarrollo del torneo...
 </p>
 
 <p id="first_match">
-first match &rarr;
+¡Empecemos! &rarr;
 </p>
 
 <p id="next_match">
-next match &rarr;
+siguiente encuentro &rarr;
 </p>
 
 <p id="match_header_1">
-<b>Match #[N]:</b> [A] vs [B]
+<b>Encuentro #[N]:</b> [A] vs [B]
 </p>
 <p id="match_header_2">
-<b>Rounds:</b>
+<b>Rondas:</b>
 </p>
 <p id="match_header_3">
-<b>Total Scores:</b> [A] vs [B]
+<b>Ganancias totales:</b> [A] vs [B]
 </p>
 
 <p id="tournament_1">
-Oh, by the way...
+Ah, por cierto...
 </p>
 <p id="tournament_2">
-...You may be skeptical about that Christmas Truce story about the World War I trenches.
-Surely that was just a fluke?
+...puede que no me creas sobre la Tregua de Navidad en la Primera Guerra Mundial.
+¿Talvez solo fue algo aislado?
 </p>
 <p id="tournament_3">
-Yes, the truce was dramatic, but it was <i>neither unique, nor unusual</i>.
+Cierto, la tregua fue dramática, pero no fue algo <i>ni aislado, ni inusual.</i>.
 </p>
 <p id="tournament_4">
-Not <i>every</i> trench joined in the peace, but it was pretty widespread.
-Many front-lines came up with the idea independently, and again: <i>despite</i> specific, strict orders not to.
+No <i>todas</i> las trincheras se unieron a la tregua, pero bastantes sí lo hicieron.
+Los soldados lo hicieron sin comunicarse entre ellos, y repito: <i>en contra</i> de las órdenes del alto mando.
 </p>
 <p id="tournament_5">
-And in fact, even <i>before</i> Christmas, several front-lines already <i>had</i>
-established an unofficial, secret peace.
+Y de hecho, incluso <i>antes</i> de Navidad, muchas trincheras <i>ya habían establecido</i>
+una paz secreta y no oficial.
 </p>
 <p id="tournament_6">
-They called it: <b>the "live and let live" system.</b>
-Basically, you don't shoot me, I don't shoot you. And this worked, in a lot of places!
+Lo llamaron el sistema <b>"vive y deja vivir".</b>
+Básicamente, si no me disparas, no te disparo. ¡Y funcionó, en muchos lugares!
 </p>
 <p id="tournament_7">
-You may still be skeptical. Most soldiers don't spontaneously form peace with the enemy.
-What's so special about <i>trench</i> warfare? 
+Puedes seguir sin creerme. Los soldados no dejan de atacarse así de fácil.
+¿Qué había de especial en la guerra <i>de trincheras?</i> 
 </p>
 <p id="tournament_8">
-Well, here's what's unique about the trenches:
-unlike almost every other form of war,
-you have to face the same <i>specific soldiers</i> every day.
+Bueno, esto es lo especial en la guerra de trincheras:
+a diferencia de los otros tipos de combate,
+todos los días te enfrentas a <i>los mismos soldados enemigos.</i>
 </p>
 <p id="tournament_9">
-<b>It's a repeated game.</b> And that makes <i>all</i> the difference.
+<b>Es un juego repetido.</b> Y ésa es la diferencia <i>clave.</i>
 </p>
 <p id="tournament_10">
-Anyway. And the winner is...
+Como sea. El ganador del torneo es...
 </p>
 
 <p id="the_winner_is">
-(drumroll please...) &rarr;
+(redoble, por favor...) &rarr;
 </p>
 
 <p id="tournament_winner_1">
-<b class="tft">COPYCAT!</b>
+<b class="tft">EL COPIÓN!</b>
 </p>
 <p id="tournament_winner_2_yay">
-Congrats, you placed your bet on the right horse.
+Felicitaciones, le apostaste al ganador.
 </p>
 <p id="tournament_winner_2_nay">
-(Apologies to your bet, [CHAR].)
+(Bien jugado, [CHAR].)
 </p>
 <p id="tournament_winner_3">
-<span class="tft">Copycat</span> goes by many names.
-The Golden Rule, reciprocal altruism, tit for tat, or... <b>live and let live.</b>
-That's why "peace" could emerge in the trenches of World War I:
-when you're forced to play the same game with the
-same <i>specific people</i> (not just the same generic "enemy") over and over again --
-<span class="tft">Copycat</span> doesn't just win the battle, it wins the war.
+<span class="tft">El Copión</span> es conocido de muchas formas.
+La Regla de Oro, altruismo recíproco, toma y daca, o... <b>vive y deja vivir.</b>
+Esta es la razón por la que la paz se alcanzó en las trincheras de la Primera Guerra Mundial:
+cuando debes jugar el mismo juego contra la misma <i>persona específica</i> (no un "enemigo" a secas) una y otra vez -- el
+<span class="tft">Copión</span> no solo gana la batalla, gana la guerra.
 <br><br>
-But if things change a lot when you play multiple rounds of the same game, what if we play...
+Pero si las cosas cambian mucho cuando juegas varias rondas del mismo juego, ¿que pasaría si jugamos...
 </p>
 <p id="tournament_teaser">
-...multiple <i>tournaments?</i> &rarr;
+...múltiples <i>torneos?</i> &rarr;
 </p>
 
 
@@ -403,181 +386,181 @@ But if things change a lot when you play multiple rounds of the same game, what 
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="evolution_intro">
-Now, let's let our population of players <i>evolve over time</i>. It's a 3-step dance:
+Ahora hagamos que nuestra población de jugadores <i>evolucione con el tiempo.</i> Lo haremos en 3 pasos:
 </p>
 <p id="evolution_intro_1">
-<b>1. PLAY A TOURNAMENT</b><br>
-Let them all play against each other, and tally up their scores.
+<b>1. DISPUTAR UN TORNEO</b><br>
+Se enfrentarán todos contra todos, y almacenaremos sus ganancias.
 </p>
 <p id="evolution_intro_2">
-<b>2. ELIMINATE LOSERS</b><br>
-Get rid of the 5 worst players. (if there's a tie, pick randomly between them)
+<b>2. ELIMINAR PERDEDORES</b><br>
+Sacaremos del juego a los 5 jugadores de menor ganancia. (Si hay empate, se escoge al azar.)
 </p>
 <p id="evolution_intro_3">
-<b>3. REPRODUCE WINNERS</b><br>
-Clone the 5 best players. (if there's a tie, pick randomly between them)
+<b>3. REPRODUCIR GANADORES</b><br>
+Duplicamos a los 5 jugadores de mayor ganancia. (Si hay empate, se escoge al azar.)
 </p>
 <p id="evolution_intro_footer">
-...and REPEAT, for as long as you'd like.
-Note: you don't have to wait for people to literally die &amp; reproduce for culture to evolve --
-all that's needed is that "unsuccessful" behaviors go away, and "successful" behaviors are imitated.
-So now...
+...y DE VUELTA AL PASO 1, cuantas veces quieras.
+Nota: en la vida real, no es necesario que la gente muera y se reproduzca para la evolución cultural --
+basta desaparecer las <i>conductas</i> "inútiles" e imitar las "útiles".
+Es tiempo de...
 </p>
 <p id="evolution_intro_button">
-...let's see this in action. &rarr;
+...ver esto en acción. &rarr;
 </p>
 
 <p id="evo_1">
-Say we start with the following population of players:
-<span class="all_c">15 Always Cooperates</span>,
-<span class="all_d">5 Always Cheats</span>, and
-<span class="tft">5 Copycats</span>.
-(We'll ignore <span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> for now)
+Comencemos con la siguiente distribución de jugadores:
+<span class="all_c">15 Inocentes</span>,
+<span class="all_d">5 Tramposos</span>, y
+<span class="tft">5 Copiones</span>.
+(No usaremos <span class="grudge">Rencorosos</span> y <span class="prober">Detectives</span> por ahora.)
 <br><br>
-We're going to do the tournament-eliminate-reproduce dance a dozen times or so.
-Let's make another bet! Who do you think will win the <i>first</i> tournament?
-<b>PLACE YOUR BETS, AGAIN:</b>
+Haremos la secuencia torneo-eliminar-reproducir más o menos una docena de veces.
+¡Apostemos otra vez! ¿Quién crees que ganará el <i>primer</i> torneo?
+<b>HAZ TU APUESTA, DE NUEVO:</b>
 </p>
 
 <p id="evo_2_all_c">
-Makes sense, <span class="all_c">Always Cooperate</span> outnumbers everyone else right now...
+Tiene sentido, los <span class="all_c">Inocentes</span> son los más numerosos...
 </p>
 <p id="evo_2_all_d">
-Makes sense, <span class="all_d">Always Cheat</span> has a lot of <span class="all_c">Always Cooperates</span> to exploit...
+Tiene sentido, los <span class="all_d">Tramposos</span> tienen muchos <span class="all_c">Inocentes</span> que explotar...
 </p>
 <p id="evo_2_tft">
-Makes sense, <span class="tft">Copycat</span> won the tournament last time, why not again?...
+Tiene sentido, los <span class="tft">Copiones</span> ganaron la última vez, ¿podrán hacerlo de nuevo?...
 </p>
 <p id="evo_2">
-Let's see if you're correct:
+Veamos si estás en lo correcto:
 </p>
 
 <p id="label_play_tournament">
-1) play tournament
+1) jugar torneo
 </p>
 <p id="label_eliminate_bottom_5">
-2) eliminate bottom 5
+2) eliminar los 5 peores
 </p>
 <p id="label_reproduce_top_5">
-3) reproduce top 5
+3) reproducir los 5 mejores
 </p>
 
 <p id="evo_3_all_c">
-Alas, <span class="all_c">Always Cooperate</span> got eaten up by
-<span class="all_d">Always Cheat</span>, whose numbers have now increased by 5.
+Vaya, los <span class="all_c">Inocentes</span> fueron eliminados por los
+<span class="all_d">Tramposos</span>, que ahora son 10.
 </p>
 <p id="evo_3_all_d">
-Sadly, you were correct! The <span class="all_d">Always Cheaters</span> won this time, 
-and their numbers increased by 5.
+¡Tristemente, tenías razón! Los <span class="all_d">Tramposos</span> ganaron esta vez, 
+y ahora son 10 <span class="all_d">Tramposos</span>.
 </p>
 <p id="evo_3_tft">
-Alas, <span class="tft">Copycat</span> did not win – but at least they didn't do as bad
-as <span class="all_c">Always Cooperate</span>. They got eaten up by <span class="all_d">Always Cheat</span>,
-whose numbers have now increased by 5.
+Vaya, los <span class="tft">Copiones</span> no ganaron – pero al menos no les fue como a los
+<span class="all_c">Inocentes</span>, que han sido eliminados por los <span class="all_d">Tramposos</span>
+ que ahora son 10 jugadores.
 </p>
 <p id="evo_3">
-But let's try a few more rounds of this...
+Pero repitamos unas cuantas veces más el proceso...
 </p>
 
 <p id="evo_4">
-<span class="all_d">Always Cheat</span> is still growing,
-at the expense of <span class="all_c">Always Cooperate</span>...
+Los <span class="all_d">Tramposos</span> siguen aumentando,
+a costa de los <span class="all_c">Inocentes</span>...
 </p>
 
 <p id="evo_5">
-And now, all the <span class="all_c">Always Cooperates</span> are dead.
-But, wait...
+Hasta que finalmente, todos los <span class="all_c">Inocentes</span> se han ido.
+Pero, espera...
 </p>
 
 <p id="evo_6">
-That's right: the <span class="all_d">Always Cheats</span> became a victim of their own success!
-They exploited the naive <span class="all_c">Always Cooperators</span>,
-but once they ran out of them, they had to face the <span class="tft">Copycats</span>:
-who <i>are</i> nice, but not naive.
+Es cierto: ¡los <span class="all_d">Tramposos</span> cayeron víctimas de su propio éxito!
+Abusaron de los <span class="all_c">Inocentes</span>,
+pero una vez que estos desaparecieron, solo quedaron los <span class="tft">Copiones</span>:
+que son <i>amables, pero no tontos.</i>
 </p>
 
 <p id="evo_7">
-By simply copying the other player's moves,
-<span class="tft">Copycats</span> can play nice with each other,
-while <span class="all_d">Always Cheats</span> just cheat themselves!
-Not only that, but it also means <span class="tft">Copycat</span>
-can give <span class="all_d">Always Cheat</span>
-a taste of their own medicine.
+Simplemente copiando los movimientos de su oponente,
+los <span class="tft">Copiones</span> son cooperativos entre sí,
+mientras que los <span class="all_d">Tramposos</span> ¡se engañan entre ellos!
+Además de eso los <span class="tft">Copiones</span>
+pueden darles a los <span class="all_d">Tramposos</span>
+<i>una cucharada de su propia medicina.</i>
 </p>
 
 <p id="evo_8">
-And so, as a result...
+Y por tanto, al final de todo...
 </p>
 
 <p id="evo_9">
-...<span class="tft">Copycat</span> inherits the earth.
+...los <span class="tft">Copiones</span> se quedan con todo.
 </p>
 <p id="evo_9_all_c">
-So, although your bet was off -- the nice-but-naive <span class="all_c">Always Cooperators</span>
-were doomed from the start -- in the end, a <i>smart</i> form of niceness prevailed,
-and the <span class="all_d">Always Cheaters</span> were squashed.
+Entonces, a pesar de que apostaste mal -- los muy amables, pero muy ingenuos <span class="all_c">Inocentes</span>
+estaban condenados desde el inicio -- al final, una forma <i>inteligente</i> de amabilidad se mantuvo,
+y los <span class="all_d">Tramposos</span> desaparecieron del juego.
 </p>
 <p id="evo_9_all_d">
-So, in the short run you were right - <span class="all_d">Always Cheat</span> won the first few rounds,
-but in the end, its exploitativeness was its downfall.
+Entonces, a corto plazo tenías razón - los <span class="all_d">Tramposos</span> ganaron las primeras rondas,
+pero a largo plazo, sus trampas los llevaron a la extinción.
 </p>
 <p id="evo_9_tft">
-So, in the long run, you were right - <span class="tft">Copycat</span> wins!
-<span class="all_d">Always Cheat</span> may have won in the short run,
-but its exploitativeness was its downfall.
+Entonces, a largo plazo tenías razón - ¡los <span class="tft">Copiones</span> ganan!
+Los <span class="all_d">Tramposos</span> ganaron al principio,
+pero sus trampas los llevaron a la extinción.
 </p>
 <p id="evo_9_end">
-This reminds me of a quote:
+Esto me recuerda una frase:
 <br><br>
-<i>"We are punished by our sins, not for them."</i><br>
+<i>"Somos castigados por nuestros propios pecados, no a causa de ellos."</i><br>
 ~ Elbert Hubbard
 </p>
 <p id="evo_9_btn">
-(oh, and by the way...)
+(Ah, y por cierto...)
 </p>
 
 <p id="evo_10">
-(...this result is similar even if we put
-<span class="grudge">Grudger</span> &amp; <span class="prober">Detective</span> back in:)
+(...el resultado es similar incluso si dejamos entrar al juego a
+<span class="grudge">Rencoroso</span> y <span class="prober">Detective</span>:)
 </p>
 
 <p id="evo_autoplay">
-start the evolution process!
+Comenzar la evolución!
 </p>
 <p id="evo_autoplay_stop">
-stop the evolution process
+Detener la evolución
 </p>
 
 <p id="evo_10_followup">
-(Note: sometimes, a few <span class="grudge">Grudgers</span> may stick around,
-because when all players except <span class="grudge">Grudger</span> &amp; <span class="tft">Copycat</span> 
-are eliminated, the two tie.)
+(Nota: a veces, unos cuantos <span class="grudge">Rencorosos</span> sobreviven,
+porque si todos los jugadores son eliminados excepto <span class="grudge">Rencoroso</span> y <span class="tft">Copión</span>, 
+los dos empatan.)
 <br><br>
-So, it seems the math of game theory is telling us something:
-that <span class="tft">Copycat's</span> philosophy,
-"Do unto others as you would have them do unto you", may be not just a 
-<i>moral</i> truth, but also a <i>mathematical</i> truth.
-However...
+Parece que las matemáticas de la teoría de juegos nos dicen algo:
+que la filosofía del <span class="tft">Copión</span> de
+"No hagas a otros lo que no quieres que te hagan a ti", no solo es una 
+verdad <i>moral</i>, sino también <i>matemática</i>.
+No obstante...
 </p>
 <p id="evo_10_btn">
-...there's a problem: &rarr;
+...hay un problema: &rarr;
 </p>
 
 <p id="evo_11">
-Look around. The world's full of total jerkwads.
+Mira a tu alrededor. El mundo esta lleno de tramposos.
 <br><br>
-If <span class="tft">Copycat</span> is the strategy in this repeated game of trust that's so powerful --
-that even soldiers in World War I trenches independently "evolved" a similar strategy, called "live and let live" -- 
-why, then, are there so many un-trusting, un-trustworthy people?
-What's causing our epidemic of un-trust?
+Si la estrategia del <span class="tft">Copión</span> en este juego repetido de confianza es tan poderosa --
+que incluso los soldados en las trincheras "desarrollaron" una estrategia similar, llamada "vive y deja vivir" -- 
+<b>¿por qué, entonces, hay tanta gente mentirosa y desconfiada?</b>
+¿Qué causa esta epidemia de desconfianza?
 <br><br>
-A clue's in that sentence itself. "In <i>this</i> repeated game of trust."
-So far we've only talked about change in the players:
-what about <i>a change in the game?</i>
-What could lead to...
+Recuerda: "En <i>este</i> juego repetido".
+Hasta ahora solo cambiamos los jugadores:
+¿qué pasaría si <i>cambiamos el juego?</i>
+¿Qué puede llevar a la evolución...
 </p>
 <p id="evo_11_btn">
-...the evolution of <i>distrust?</i>
+...de la <i>desconfianza?</i>
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
@@ -585,85 +568,84 @@ What could lead to...
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="distrust_1">
-Before everything goes to heck, let's start with something nice!
-Here's a world filled entirely with <span class="all_c">Always Cooperates</span>,
-except for one <span class="all_d">Always Cheat</span> and one <span class="tft">Copycat</span>.
+Antes de mandar todo al diablo, ¡hagamos algo bonito!
+Juguemos un torneo con muchísimos <span class="all_c">Inocentes</span>,
+excepto por un <span class="all_d">Tramposo</span> y un <span class="tft">Copión</span>.
 <br><br>
-Use the buttons on the right to <b>START</b> the sim,
-go through it <b>step-by-step</b>, or <b>reset</b> it. &rarr;
+Usa los botones de la derecha para <b>EMPEZAR</b> el proceso,
+observarlo <b>paso a paso</b>, o <b>resetearlo</b>. &rarr;
 </p>
 
 <p id="distrust_2">
-As you already know, <span class="tft">Copycat</span> wins handily in the long run,
-under our current rules!
+Como ya sabías, ¡el <span class="tft">Copión</span> gana fácilmente a largo plazo,
+bajo nuestras reglas actuales!
 <br><br>
-But that's under our <i>current</i> rules, which say that
-players play against each other for <i>10</i> rounds per match.
-Does <span class="tft">Copycat</span> still win at 7 rounds? 5 rounds? 3? 2? 1?
+Pero eso sucede bajo las reglas <i>actuales</i>, que indican
+que los jugadores se enfrentan <i>10</i> rondas por encuentro.
+¿Ganará el <span class="tft">Copión</span> si jugamos 7 rondas? ¿5 rondas? ¿3? ¿2? ¿1?
 <br><br>
-<b>Change the number of rounds</b> with the slider below,
-then <b>START</b> the sim, and see what happens.
-Feel free to experiment!
+<b>Cambia el número de rondas</b> con el control inferior,
+luego da <b>INICIO</b> el proceso, y mira lo que pasa.
+¡Haz los cambios que quieras!
 </p>
 
 <p id="distrust_2_end">
-once you're done playing around, click:
+Cuando estés listo, da click:
 </p>
 
 <p id="distrust_3">
-As you saw, if you don't play enough rounds, (here: 5 or less)
-<span class="all_d">ALWAYS CHEAT</span> dominates.
+Como viste, si no juegas las suficientes rondas, (en este caso, 5 o menos)
+el <span class="all_d">TRAMPOSO</span> prevalece.
 <br><br>
-In 1985, when Americans were asked how many close friends they had,
-the most common answer was "three". In 2004, the most common answer was <i>"zero"</i>.
-We now have fewer friends across class, racial, economic, and political lines,
-because we have fewer friends -- <i>period.</i>
-And as you just discovered for yourself,
-<b>the fewer "repeat interactions" there are, the more distrust will spread.</b>
+En 1985, cuando los estadounidenses dijeron cuántos amigos <i>cercanos</i> tenían,
+la respuesta más común fue "tres". En 2004, fue <i>"cero"</i>.
+Ahora tenemos menos amigos de diferente etnia, religión, nivel económico,
+sencillamente <i>porque tenemos menos amigos y punto.</i>
+Y como sabrás por experiencia,
+<b>menos "interacciones repetidas" implican mayor desconfianza.</b>
 <br><br>
-(no, mass media doesn't count:
-it must be <i>two-way</i> interactions between <i>specific individuals</i>.)
+(no, Facebook no cuenta:
+se trata de interacciones <i>mutuas</i> entre <i>personas reales</i>.)
 </p>
 <p id="distrust_3_btn">
-and oh, it gets worse... &rarr;
+y  se pone peor... &rarr;
 </p>
 
 <p id="distrust_4">
-There's <i>another</i> way to breed distrust.
-Here are the "payoffs" for the trust game:
+Hay <i>otra forma</i> de perder confianza.
+Mira las "ganancias" del juego de confianza:
 </p>
 <p id="distrust_4_2">
-With the normal payoffs, <span class="tft">Copycat</span> wins.
-But now, <b>change the "both cooperate" reward from +2 to +1</b>,
-then click <b>START</b>.
-Even though +1 is still <i>more</i> than the punishment for both cheating (0)...
-what happens?
+Con las ganancias normales, el <span class="tft">Copión</span> gana.
+Pero ahora, <b>cambia la ganancia de "ambos cooperan" de +2 a +1</b>,
+y presiona <b>INICIO</b>.
+Aun cuando +1 es <i>mejor</i> que el pago por engaño mutuo (0)...
+¿qué pasa?
 </p>
 <p id="distrust_4_note">
-feel free to play around with different payoffs!
-once you're done, click:
+¡Experimenta con diferentes valores de ganancia!
+Cuendo estés listo, da click:
 </p>
 <p id="distrust_4_note_2">
-(simulating: 10 rounds per match)
+(simulando: 10 rondas por encuentro)
 </p>
 
 <p id="distrust_5">
-The same thing happens:
-with a lower "win-win" reward, <span class="all_d">Always Cheat</span> takes over.
-Game theory has two powerful ideas about this:
+Paso lo mismo que antes:
+si "confiar ambos" paga menos, el <span class="all_d">Tramposo</span> vence.
+La Teoría de Juegos tiene dos ideas sobre esto:
 <br><br>
-<b>"Zero-sum game".</b> This is the sadly common belief that a gain for "us"
-<i>must</i> come at a loss to "them", and vice versa.
+<b>"Juego de suma cero".</b> Es la triste creencia común de que si yo gano,
+<i>obviamente</i> el otro pierde, y viceversa.
 <br><br>
-<b>"Non-zero-sum game".</b> This is when people make the hard effort
-to create a win-win solution! (or at least, avoid a lose-lose)
-Without the non-zero-sum game, <i>trust cannot evolve.</i>
+<b>"Juego de suma no cero".</b> Pasa cuando decidimos que ¡todo el mundo debe ganar!
+(O por lo menos, que no perdamos todos). Sin esta idea, <i>no hay evolución de la confianza.</i>
 <br><br>
-Speaking of which,
-let's now look at our third &amp; final barrier to the evolution of trust...
+Y ya que estamos,
+veamos la tercera y última barrera para la evolución de la confianza:
 </p>
 <p id="distrust_5_btn">
-<s>Misteaks</s> Mistakes. &rarr;
+<s>Herrores</s> Errores. &rarr;
 </p>
 
 <!-- - - - - - - - - - - - - - - - - -->
@@ -671,179 +653,178 @@ let's now look at our third &amp; final barrier to the evolution of trust...
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="noise_1">
-As cool as <span class="tft">Copycat</span> is, it has a huge, fatal weakness I haven't mentioned yet.
-To understand the problem, let's say two <span class="tft">Copycats</span> are playing against each other:
+Por genial que sea el <span class="tft">Copión</span> tiene una terrible falla que no he mencionado aún.
+Para entenderla, digamos que dos <span class="tft">Copiones</span> juegan entre ellos:
 </p>
 <p id="noise_1_end">
-Being "nice" players, both their first moves will be:
+Siendo ambos "tipos buenos", empezarán con:
 </p>
 
 <p id="noise_2">
-And normally, they'd just pay back each others' kindness and sing Kumbaya until the end of time.
+Y generalmente, mantendrán su amabilidad mutua y vivirán felices comiendo perdices.
 </p>
 <p id="noise_2_end">
-But what if, while trying to reciprocate goodness...
+Pero y si, tratando de ser amables...
 </p>
 
 <p id="noise_3">
-<b>OH NO</b>
+<b>¡OH NO!</b>
 <br>
-Mistakes, miscommunication, misinterpretations -- accidents happen all the time in real life.
+Errores, falta de comunicación y entendimiento -- son cosas que pasan a menudo en la vida real.
 </p>
 <p id="noise_3_end">
-But if the other person doesn't <i>think</i> it was an accident...
+Pero si el otro <i>no cree</i> que fue un accidente...
 </p>
 
 <p id="noise_4">
-<b>OH NO TIMES TWO</b>
+<b>¡OH NO AL CUADRADO!</b>
 <br>
-The other player, being a <span class="tft">Copycat</span>, <i>had</i> to retaliate...
+El otro jugador, siendo un <span class="tft">Copión</span>, <i>cobra venganza</i>...
 </p>
 <p id="noise_4_end">
-...and you, being a <span class="tft">Copycat</span> as well, will <i>also</i> have to retaliate...
+...y tú, siendo también un <span class="tft">Copión</span>, decides <i>cobrar venganza</i> igual...
 </p>
 
 <p id="noise_5">
-Thus, like the Hatfields and McCoys,
-these two <span class="tft">Copycats</span> will spiral into an endless cycle of vengeance...
-that started over a single mistake, long ago.
+Así como los Montesco y los Capuleto,
+los dos <span class="tft">Copiones</span> entran en un ciclo eterno de venganza...
+que comenzó con un solo error, hace mucho tiempo.
 </p>
 <p id="noise_5_end">
-Tragic. But now, are there <i>other</i> types of players who can...
+Trágico. Entonces, ¿existen <i>otros</i> jugadores que puedan...
 </p>
 <p id="noise_5_btn">
-...deal with mistakes? &rarr;
+...perdonar errores? &rarr;
 </p>
 
 <p id="noise_characters">
-Let's meet some new faces! (or, new hats, anyway)
+¡Conozcamos unas caras nuevas! (más bien sombreros nuevos)
 </p>
 
 <p id="character_tf2t">
-<b>COPYKITTEN:</b><br>
-Hello! I'm like <span class="tft">Copycat</span>,
-except I Cheat back only after you Cheat me twice in a row.
-After all, the first one could be a mistake! Purrrrr
+<b>COPIÓN AMABLE:</b><br>
+¡Hola! Juego igual que el <span class="tft">Copión</span>,
+excepto que te Engaño solo si me Engañas dos veces seguidas.
+¡Un error lo comete cualquiera! ;)
 </p>
 
 <p id="character_pavlov">
-<b>SIMPLETON:</b><br>
-hi i try start cooperate.
-if you cooperate back, i do <i>same thing</i> as last move, even if it mistake.
-if you cheat back, i do <i>opposite thing</i> as last move, even if it mistake.
+<b>PRÁCTICO:</b><br>
+Hola, yo empiezo Confiando.
+Si también Confías, hago <i>lo mismo</i> que hice antes, aun si fue un error.
+Si me Engañas, hago <i>lo opuesto</i> a lo que hice antes, aun si fue un error.
 </p>
 
 <p id="character_random">
-<b>RANDOM:</b><br>
-<i>Monkey robot! Ninja pizza tacos! lol i'm so random</i><br>
-(Just plays Cheat or Cooperate randomly with a 50/50 chance)
+<b>ALEATORIO:</b><br>
+<i>¡Mosca luna! ¡Gato pizza aaaaa! xD soy tan random</i><br>
+(Juega Confiar o Engañar aleatoriamente con probabilidad 50-50.)
 </p>
 
 <p id="noise_characters_end">
-Alright, let's see how well these peeps do when they...
+Veamos como estos personajes se comportan...
 </p>
 <p id="noise_characters_btn">
-...play in a tournament &rarr;
+...¡en un torneo! &rarr;
 </p>
 
 <p id="noise_evo_1">
-Let's start with a dozen
-<span class="all_c">Always Cooperates</span>,
-versus our old winner, the fair <span class="tft">Copycat</span>,
-and our three new characters:
-the forgiving <span class="tf2t">Copykitten</span>,
-the dull <span class="pavlov">Simpleton</span>, and
-the silly <span class="random">Random</span>.
+Comencemos con doce
+<span class="all_c">Inocentes</span>,
+contra el viejo ganador, el buen <span class="tft">Copión</span>,
+y los nuevos personajes:
+el misericordioso <span class="tf2t">Copión Amable</span>,
+el predecible <span class="pavlov">Práctico</span>, y
+el raro <span class="random">Aleatorio</span>.
 <br><br>
-In each round of a match, players have a small chance of making a mistake. (let's say, 5%)
-Who do you think will come out on top?
-<b>Think carefully, then PLACE YOUR BETS:</b>
+En cada ronda, en cada encuentro, existe la probailidad de cometer un error. (Digamos, 5%)
+¿Quién crees que ganará?
+<b>Piensa bien, y HAZ TU APUESTA:</b>
 </p>
 
 <p id="noise_evo_2">
-Alright, you bet [CHAR] wins. Let's find out!
-Use the controls to your left to <b>START</b> the sim in quick mode,
-or go through it <b>step-by-step</b>.
+Está bien,apostaste por [CHAR]. ¡Veamos qué pasa!
+Usa los controles de la izquierda para dar <b>INICIO</b> al proceso rápido,
+o elgir ir <b>paso a paso</b>.
 </p>
 <p id="noise_evo_2_2_correct">
-You were correct -- 
+Estabas en lo cierto -- 
 </p>
 <p id="noise_evo_2_2_incorrect">
-Your bet was close, but no cigar -- 
+Cerca, pero fallaste -- 
 </p>
 <p id="noise_evo_2_2">
-<span class="pavlov">Simpleton</span> wins!
-This is because <span class="pavlov">Simpleton</span> is actually capable of
-exploiting <span class="all_c">Always Cooperate</span>. They both start cooperating,
-but if <span class="pavlov">Simpleton</span> makes a mistake and cheats,
-since <span class="all_c">Always Cooperate</span> never retaliates,
-<i>it'll keep cheating them</i>.
+¡<span class="pavlov">Práctico</span> gana!
+Esto pasa porque el <span class="pavlov">Práctico</span> puede explotar al 
+<span class="all_c">Inocente</span>. Comienzan Confiando,
+pero si el <span class="pavlov">Práctico</span> se equivoca y lo Engaña,
+y ya que el <span class="all_c">Inocente</span> nunca se venga,
+<i>lo seguirá engañando</i>.
 </p>
 <p id="noise_evo_2_2_btn">
-Now let's try...
+Ahora intentemos...
 </p>
 
 <p id="noise_evo_3">
-...the same thing as before, except instead of half-<span class="all_c">Always Cooperate</span>,
-it's half-<span class="all_d">Always Cheat</span>. It's a much <i>less</i> forgiving,
-<i>more</i> hostile environment.
+...lo mismo que antes, en vez de incluir <span class="all_c">Inocentes</span>,
+los reemplazamos con <span class="all_d">Tramposos</span>. Es un ambiente <i>menos</i> tolerante,
+y mucho <i>más</i> hostil
 <br><br>
-Who do you think will win now? <b>Think, then PLACE YOUR BETS:</b>
+¿Quién crees que ganará ahora? <b>Piensa y HAZ TU APUESTA:</b>
 </p>
 
 <p id="noise_evo_4">
-You bet on [CHAR]. Again, go through the simulation...
+Le apostaste al [CHAR]. Hagamos el proceso de nuevo...
 </p>
 <p id="noise_evo_4_2_correct">
-You were right on the money -- 
+Muy buena apuesta -- 
 </p>
 <p id="noise_evo_4_2_incorrect">
-Good guess, but someone else took the prize -- 
+Estuvo cerca, pero esta vez -- 
 </p>
 <p id="noise_evo_4_2">
-<span class="tf2t">Copykitten</span> wins this time!
-That's surprising that with an even <i>meaner</i> starting population,
-<span class="tf2t">Copykitten</span>,
-a <i>more forgiving</i> version of <span class="tft">Copycat</span>,
-was the most successful! (note: <span class="tf2t">Copykitten</span> is so forgiving
-it doesn't even <i>entirely</i> wipe out <span class="tft">Copycat</span>. it shares room)
+¡el <span class="tf2t">Copión Amable</span> gana!
+¡Es sorprendente que con una población <i>menos tolerante</i>, el <span class="tf2t">Copión Amable</span>,
+una versión <i>más misericordiosa</i> del <span class="tft">Copión</span>,
+haya resultado ganador! (Nota: el <span class="tf2t">Copión Amable</span> es tan amable 
+que ni siquiera elimina <i>completamente</i> al <span class="tft">Copión</span>).
 <br><br>
-In this case, a bit of "miscommunication" (5% chance of mistake each round) could lead
-to more <i>forgiveness</i>. But is this true for <i>all</i> levels...
+En este caso, un poco de "malinterpretación" (5% de probabilidad de error en cada ronda) llevó 
+a más <i>tolerancia</i>. Pero, ¿esto sucede para <i>cualquier nivel</i>...
 </p>
 <p id="noise_evo_4_2_btn">
-...of miscommunication?
+...de malinterpretación?
 </p>
 
 <p id="noise_evo_5">
-<b>Use the slider below to change the amount of "miscommunication", then hit START.</b>
-At 5%, <span class="tf2t">Copykitten</span> wins.
-What happens at 0%? Or 20%? Or 50%? (it only goes up to 50%,
-because at that point, <i>every</i> move is a coin flip) 
+<b>Usa el control inferior para cambiar el nivel de "malinterpretación" y da INICIO.</b>
+Al 5%, el <span class="tf2t">Copión Amable</span> gana.
+¿Qué pasa al 0%? ¿Al 20%? ¿Al 50%? (solo llegaremos hasta ahí,
+de ahí en adelante, <i>cualquier</i> decisión es aleatoria). 
 </p>
 <p id="noise_evo_5_continue">
-When you're done playing around, click:
+Cuando estés listo, da click:
 </p>
 
 <p id="noise_evo_6">
-The results turn out something like this:<br>
-<b>At 0%,</b> the fair <span class="tft">Copycat</span> wins!
-<b>At 1% to 9%,</b> the forgiving <span class="tf2t">Copykitten</span> wins!
-<b>At 10% to 49%:</b> the unfair, unforgiving <span class="all_d">Always Cheat</span> wins.
-<b>At 50%,</b> <i>nobody wins ever.</i>
+Los resultados son los siguientes:<br>
+<b>Al 0%,</b> ¡el buen <span class="tft">Copión</span> gana!
+<b>De 1% a 9%,</b> ¡el tolerante <span class="tf2t">Copión Amable</span> gana!
+<b>De 10% a 49%:</b> el cruel y malvado <span class="all_d">Tramposo</span> gana.
+<b>Al 50%,</b> <i>nadie gana nunca.</i>
 <br><br>
-This is why "miscommunication" is such an interesting barrier to trust:
-a <i>little</i> bit of it leads to forgiveness,
-but <i>too much</i> and it leads to widespread distrust!
-I think our modern media technology,
-as much as it's helped us increase communication...
-has increased our <i>miscommunication</i> much more.
+Por ello la "malinterpretación" tiene esos efctos en la confianza: 
+<i>poca</i> lleva a la tolerancia,
+pero si hay <i>demasiada</i>, ¡la desconfianza se propaga!
+Creo que la tecnología moderna (redes sociales),
+a pesar de incrementar nuestra intercomunicación...
+ha incrementado la <i>malinterpretación</i> mucho más.
 <br><br>
-At last, let's experiment with <i>all</i> the numbers, the knobs and sliders.
-Let's play...
+Finalmente, experimentemos con <i>todos</i> los números, los controles y las ganancias.
+Juguemos...
 </p>
 <p id="noise_evo_6_btn">
-...in the Sandbox Mode!
+...¡en el Modo Arena!
 </p>
 
 
@@ -852,14 +833,14 @@ Let's play...
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="sandbox_population">
-Start off with this distribution of players:
+Iniciar con esta distribución de jugadores:
 </p>
 
 <p id="sandbox_payoffs">
-The payoffs in a one-on-one game are:
+Las ganancias en una ronda son:
 </p>
 <p id="sandbox_reset_payoffs">
-set default
+Resetear
 </p>
 
 <!--
@@ -869,29 +850,29 @@ one for the plural version, one for the singular version.
 -->
 
 <p id="sandbox_rules_1">
-Play [N] rounds per match:
+Jugar [N] rondas por encuentro:
 </p>
 <p id="sandbox_rules_1_single">
-Play [N] round per match:
+Jugar [N] ronda por encuentro:
 </p>
 
 <p id="sandbox_rules_2">
-After each tournament, eliminate the bottom [N] players &amp; reproduce the top [N] players:
+Después de cada torneo, eliminar los [N] peores y reproducir los [N] mejores:
 </p>
 <p id="sandbox_rules_2_single">
-After each tournament, eliminate the bottom [N] player &amp; reproduce the top [N] player:
+Después de cada torneo, eliminar [N] peor y reproducir [N] mejor:
 </p>
 
 <p id="sandbox_rules_3">
-During each round, there's a [N]% chance a player makes a mistake:
+Durante cada ronda, la probabilidad de error del jugador es de [N]%:
 </p>
 
 <p id="sandbox_end">
-<b>NOTE: Sandbox Mode is totally optional.</b>
-Feel free to skip it, or play around! Once you're done, let's recap...
+<b>NOTA: El Modo Arena es opcional.</b>
+¡Puedes jugar en él o saltarlo sin problemas! Cuando termines, veamos...
 </p>
 <p id="sandbox_end_btn">
-what we learnt today! &rarr;
+¿qué aprendimos hoy? &rarr;
 </p>
 
 
@@ -901,69 +882,69 @@ what we learnt today! &rarr;
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="conclusion_0">
-Game theory has shown us the three things we need for the evolution of trust:
+La Teoría de Juegos nos ha mostrado las tres cosas necesarias para la evolución de la confianza:
 </p>
 <p id="conclusion_1_a">
-1. REPEAT INTERACTIONS
+1. REPETIR INTERACCIONES
 </p>
 <p id="conclusion_1_a2">
-Trust keeps a relationship going,
-but you need the knowledge of possible future repeat interactions <i>before</i> trust can evolve.
+Confiar mantiene las relaciones,
+pero necesitas conocer que repetirás las interacciones <i>antes</i> de que la confianza evolucione.
 </p>
 <p id="conclusion_2_a">
-2. POSSIBLE WIN-WINS
+2. TODOS DEBEN GANAR
 </p>
 <p id="conclusion_2_a2">
-You must be playing a non-zero-sum game,
-a game where it's at least possible that <i>both</i> players can be better off -- a win-win.
+Debes jugar un juego de suma no cero,
+un juego donde se pueda obtener beneficios para <i>ambos</i> jugadores.
 </p>
 <p id="conclusion_3_a">
-3. LOW MISCOMMUNICATION
+3. POCA MALINTERPRETACIÓN
 </p>
 <p id="conclusion_3_a2">
-If the level of miscommunication is <i>too</i> high, trust breaks down.
-But when there's a little bit of miscommunication, it pays to be <i>more</i> forgiving.
+Si el nivel de malinterpretación es <i>muy alto</i>, se rompe la confianza.
+Pero si solo hay un poco de ella, es beneficioso ser <i>tolerante</i>.
 </p>
 <p id="conclusion_4">
-Of course, real-world trust is affected by much more than this.
-There's reputation, shared values, contracts, cultural markers, blah blah blah.
-And let's not forget...
+Por supuesto, en el mundo real la confianza no funciona así.
+Existe la reputación, valores compartidos, contratos, cultura, bla bla bla.
+Y no olvidemos...
 </p>
 <p id="conclusion_btn">
-...the <i>biggest</i> lesson. &rarr;
+...la <i>lección final</i>. &rarr;
 </p>
 
 <p id="outro_1">
-If there's one big takeaway<br>
-from <i>all</i> of game theory, it's this:
+Si hay una enseñanza en <br>
+<i>toda</i> la Teoría de Juegos, es esta:
 <br><br>
-<b>What the game is, defines what the players do.</b><br>
-Our problem today isn't just that people are losing trust,<br>
-it's that our <i>environment</i> acts against the evolution of trust.
+<b>El juego define los actos de los jugadores.</b><br>
+El problema actual no sólo es la pérdida de confianza,<br>
+es que el <i>ambiente</i> actúa contra aquellos que confían.
 <br><br>
-That may seem cynical or naive -- that we're "merely" products of our environment --
-but as game theory reminds us, we <i>are</i> each others' environment.
-<b>In the short run, the game defines the players. But in the long run,
-it's us players who define the game.</b>
+Puede parecer cínico o ingenuo -- que seamos productos de nuestro ambiente --
+pero la Teoría de Juegos nos dice que <i>nosotros somos</i> el ambiente de los demás.
+<b>A corto plazo, el juego define los jugadores. Pero a largo plazo,
+los jugadores definimos el juego.</b>
 <br><br>
-So, do what <i>you</i> can do, to create the conditions necessary to evolve trust.
-Build relationships. Find win-wins. Communicate clearly.
-Maybe then, we can stop firing at each other, get out of our own trenches,
-cross No Man's Land to come together...
+Así que <i>cada uno de nosotros</i> debe crear las condiciones necesarias para la confianza.
+Conoce gente. Busca acuerdos. Evita malinterpretar.
+Talvez entonces, dejemos de dispararnos entre nosotros, salgamos de las trincheras,
+y nos reunamos todos y...
 </p>
 
 <p id="outro_1_btn">
-and all learn...
+finalmente...
 </p>
 
 <p id="outro_2">
-...to live and let live.
+...sepamos <b>vivir y dejar vivir.</b>
 </p>
 
 <p id="outro_2_credits">
-"A Christmas Truce between Opposing Trenches"
-Illustrated by AC Michael.
-Published in <i>The Illustrated London News</i>, January 9, 1915.
+"Una Tregua de Navidad entre Trincheras Opuestas"
+Ilustrado por AC Michael.
+Publicado en <i>The Illustrated London News</i>, 9 de enero, 1915.
 </p>
 
 <p id="outro_2_btn">
@@ -977,32 +958,32 @@ Published in <i>The Illustrated London News</i>, January 9, 1915.
 <p id="credits">
 <span class="credits">
 
-created by:<br>
+Creado por:<br>
 <span class="big">NICKY CASE</span><br>
-<a href="http://ncase.me/" target="_blank">play my other shtuff</a>
+<a href="http://ncase.me/" target="_blank">jugar otros juegos</a>
 •
-<a href="https://twitter.com/ncasenmare" target="_blank">follow my tweeter</a>
+<a href="https://twitter.com/ncasenmare" target="_blank">twitter</a>
 <br>
-<a href="https://github.com/ncase/trust/#play-it-here-httpncasemetrust" target="_blank">download the music &amp; source code</a>
+<a href="https://github.com/ncase/trust/#play-it-here-httpncasemetrust" target="_blank">descarga la música y el código</a>
 
 <span class="divider"></span>
 
-based off robert axelrod's 1984 book,<br>
+Basado en el libro de Robert Axelrod<br>
 <span class="big">"THE EVOLUTION OF COOPERATION"</span><br>
-<a href="notes" target="_blank">read my footnotes for this game</a>
+<a href="notes" target="_blank">lee las notas al pie del juego</a>
 
 <span class="divider"></span>
 
-lots of love and thanks to<br>
-<span class="big">MY PATREON SUPPORTERS</span><br>
-<a href="peeps" target="_blank">see my drawings of 'em</a>
+mucho amor y agradecimiento a<br>
+<span class="big">LOS DONADORES EN PATREON</span><br>
+<a href="peeps" target="_blank">mira sus dibujos</a>
 •
-<a href="https://www.patreon.com/ncase" target="_blank">throw coins at me on patreon &lt;3</a>
+<a href="https://www.patreon.com/ncase" target="_blank">colabora en patreon &lt;3</a>
 
 <span class="divider"></span>
 
-p.s: want more learning-by-playing?<br>
-check out 
+p.s: ¿quieres saber más?<br>
+visita
 <a href="http://explorabl.es/" target="_blank">explorable explanations</a>!
 
 </span>
@@ -1012,47 +993,47 @@ check out
 <!-- - - - - THE PLAYERS - - - - - - -->
 <!-- - - - - - - - - - - - - - - - - -->
 
-<p id="label_tft">Copycat</p>
+<p id="label_tft">Copión</p>
 <p id="label_short_tft">
-copycat
+copión
 </p>
 <p id="icon_tft">
 <span class="tft">
 	<span class="icon"></span>
-	<span class="icon_label">Copycat</span>
+	<span class="icon_label">Copión</span>
 </span>
 </p>
 
-<p id="label_all_d">Always Cheat</p>
+<p id="label_all_d">Tramposo</p>
 <p id="label_short_all_d">
-cheater
+tramposo
 </p>
 <p id="icon_all_d">
 <span class="all_d">
 	<span class="icon"></span>
-	<span class="icon_label">All Cheat</span>
+	<span class="icon_label">Tramposo</span>
 </span>
 </p>
 
-<p id="label_all_c">Always Cooperate</p>
+<p id="label_all_c">Inocente</p>
 <p id="label_short_all_c">
-cooperator
+inocente
 </p>
 <p id="icon_all_c">
 <span class="all_c">
 	<span class="icon"></span>
-	<span class="icon_label">All Cooperate</span>
+	<span class="icon_label">Inocente</span>
 </span>
 </p>
 
-<p id="label_grudge">Grudger</p>
+<p id="label_grudge">Rencoroso</p>
 <p id="label_short_grudge">
-grudger
+rencoroso
 </p>
 <p id="icon_grudge">
 <span class="grudge">
 	<span class="icon"></span>
-	<span class="icon_label">Grudger</span>
+	<span class="icon_label">Rencoroso</span>
 </span>
 </p>
 
@@ -1067,71 +1048,71 @@ detective
 </span>
 </p>
 
-<p id="label_tf2t">Copykitten</p>
+<p id="label_tf2t">Copión Amable</p>
 <p id="label_short_tf2t">
-copykitten
+copión amable
 </p>
 <p id="icon_tf2t">
 <span class="tf2t">
 	<span class="icon"></span>
-	<span class="icon_label">Copykitten</span>
+	<span class="icon_label">Copión Amable</span>
 </span>
 </p>
 
-<p id="label_pavlov">Simpleton</p>
+<p id="label_pavlov">Práctico</p>
 <p id="label_short_pavlov">
-simpleton
+práctico
 </p>
 <p id="icon_pavlov">
 <span class="pavlov">
 	<span class="icon"></span>
-	<span class="icon_label">Simpleton</span>
+	<span class="icon_label">Práctico</span>
 </span>
 </p>
 
-<p id="label_random">Random</p>
+<p id="label_random">Aleatorio</p>
 <p id="label_short_random">
-random
+Aleatorio
 </p>
 <p id="icon_random">
 <span class="random">
 	<span class="icon"></span>
-	<span class="icon_label">Random</span>
+	<span class="icon_label">Aleatorio</span>
 </span>
 </p>
 
 <p id="forgot_whos_who">
-(forgot who's who? hover buttons to see descriptions of each character!)
+(¿olvidaste quién es quién? ¡coloca el mouse sobre los botones para ver sus descripciones!)
 </p>
 <p id="who_tft">
-Starts with Cooperate. Then, it simply repeats whatever YOU did in the last round.
+Comienza con Confiar. Luego solo repite tu último movimiento.
 </p>
 <p id="who_all_d">
-Always cheats.
+Siempre Engaña.
 </p>
 <p id="who_all_c">
-Always cooperates.
+Siempre Confía.
 </p>
 <p id="who_grudge">
-Starts with Cooperate, and keeps cooperating until you cheat it even once.
-Afterwards, it always plays Cheat.
+Empieza con Confiar, y sigue confiando hasta que lo engañas una vez.
+Entonces solo te Engaña.
 </p>
 <p id="who_prober">
-Starts with: Cooperate, Cheat, Cooperate, Cooperate.
-Afterwards, if you ever retaliate with a Cheat, it plays like a Copycat.
-Otherwise, it plays like an Always Cheat.
+Juega Confiar, Engañar, Confiar, Confiar.
+Después, si alguna vez jugaste Engañar, actúa como Copión.
+Caso contario, actúa como Tramposo.
 </p>
 <p id="who_tf2t">
-Starts with Cooperate.
-Only retaliates with a Cheat if you cheated it TWICE in a row.
+Comienza con Confiar.
+Solo Engaña si tú lo Engañas DOS VECES SEGUIDAS.
 </p>
 <p id="who_pavlov">
-Starts with Cooperate.
-Then, if you cooperated in last round, it repeats its last move (even if it was an accident).
-But if you cheated in last round, it switches its last move (even if it was an accident).
+Comienza con Confiar.
+De ahí, si jugaste Confiar en la última ronda, repite su último movimiento (incluso si fue un accidente).
+Pero si jugaste Engañar en la última ronda, cambia su último movimiento (incluso si fue un accidente).
 </p>
 <p id="who_random">
-Randomly cheats or cooperates with 50-50 chance
+Confía o Engaña de forma completamente aleatoria, 50-50.
 </p>
 
 
@@ -1140,51 +1121,51 @@ Randomly cheats or cooperates with 50-50 chance
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="label_cooperate">
-cooperate
+confiar
 </p>
 
 <p id="label_cheat">
-cheat
+engañar
 </p>
 
 <p id="label_play">
-play
+jugar
 </p>
 
 <p id="label_start">
-START
+INICIO
 </p>
 
 <p id="label_stop">
-STOP
+ALTO
 </p>
 
 <p id="label_step">
-step
+paso
 </p>
 
 <p id="label_reset">
-reset
+resetear
 </p>
 
 <p id="label_population">
-population
+población
 </p>
 
 <p id="label_payoffs">
-payoffs
+pagos
 </p>
 
 <p id="label_rules">
-rules
+reglas
 </p>
 
 <p id="label_next">
-next &rarr;
+siguiente &rarr;
 </p>
 
 <p id="label_continue">
-continue
+continuar
 </p>
 
 
@@ -1193,32 +1174,33 @@ continue
 <!-- - - - - - - - - - - - - - - - - -->
 
 <p id="chapter_intro">
-0. Introduction
+0. Introducción
 </p>
 <p id="chapter_oneoff">
-1. One Game
+1. Un Juego
 </p>
 <p id="chapter_iterated">
-2. Repeated Game
+2. Juego Repetido
 </p>
 <p id="chapter_tournament">
-3. One Tournament
+3. Un Torneo
 </p>
 <p id="chapter_evolution">
-4. Repeated Tournament
+4. Torneo Repetido
 </p>
 <p id="chapter_distrust">
-5. The Evolution of Distrust
+5. La Evolución de la Desconfianza
 </p>
 <p id="chapter_noise">
-6. Making Mistaeks
+6. Cometiendo Herrores
 </p>
 <p id="chapter_sandbox">
-7. Sandbox Mode
+7. Modo Arena
 </p>
 <p id="chapter_conclusion">
-8. Conclusion
+8. Conclusión
 </p>
 <p id="chapter_credits">
-9. Credits
+9. Créditos
 </p>
+
